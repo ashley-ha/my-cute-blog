@@ -14,8 +14,8 @@ export const posts: Post[] = [
   },
   {
     slug: 'second-post',
-    title: 'Thiry Thoughts',
-    description: 'thiry life learnings approaching my thirieth rotation around the sun',
+    title: 'Thirty Thoughts',
+    description: 'thirty life learnings approaching my thirieth rotation around the sun',
     date: '2024-10-29',
     draft: false,
     content: '... in progress',

@@ -1,11 +1,18 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { HOME } from "@/data/posts/posts";
+import { HOME } from "@/data/home";
+import { posts } from "@/data/posts/posts";
+import { PostCard } from '@/components/PostCard';
+import { getAllPosts } from '@/data/posts/posts';
 import Image from 'next/image'
 import Link from 'next/link'
+import { Separator } from "@/components/ui/separator";
+import { getReadingList } from '@/data/posts/readings';
+import { ReadingList } from '@/components/ReadingList';
+
+
 
 
 export const metadata: Metadata = {
@@ -14,9 +21,12 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  const posts = getAllPosts();
+  const readingList = getReadingList();
+
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
+    <main className="container relative mx-auto min-h-screen flex flex-col scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+      <div className="mx-auto w-full max-w-2xl flex flex-col gap-2">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{HOME.name}</h1>
@@ -33,74 +43,78 @@ export default function Page() {
                 {HOME.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
-              {HOME.contact.email ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`mailto:${HOME.contact.email}`}>
-                    <MailIcon className="size-4" />
-                  </a>
-                </Button>
-              ) : null}
-              {HOME.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${HOME.contact.tel}`}>
-                    <PhoneIcon className="size-4" />
-                  </a>
-                </Button>
-              ) : null}
-              {HOME.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={social.url}>
-                    <social.icon className="size-4" />
-                  </a>
-                </Button>
-              ))}
-            </div>
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
-              {HOME.contact.email ? (
-                <a href={`mailto:${HOME.contact.email}`}>
-                  <span className="underline">{HOME.contact.email}</span>
-                </a>
-              ) : null}
-              {HOME.contact.tel ? (
-                <a href={`tel:${HOME.contact.tel}`}>
-                  <span className="underline">{HOME.contact.tel}</span>
-                </a>
-              ) : null}
-            </div>
           </div>
           <Link href='/'>
-          <Image
-          alt={HOME.name}
-          src= {HOME.Logo}
-          height={150}
-          width={150}>
-          </Image>
+            <Image
+              alt={HOME.name}
+              src={HOME.Logo}
+              height={100}
+              width={100}
+            />
           </Link>
         </div>
-        <Section>
-          <h2 className="text-xl font-bold">Writings</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+        <div className='text-start space-y-1.5'>
+          <h2 className="text-xl font-bold">Original Writings</h2>
+          <p className="ml-0.5 text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
             {HOME.summary}
           </p>
+        </div>
+        <Separator className='mt-2'/>
+        <Section className="space-y-4">
+          {posts.map(post => (
+            <PostCard key={post.slug} post={post} />
+          ))}
+          {posts.length === 0 && (
+            <p className="text-center text-muted-foreground">
+              No posts yet. Check back soon!
+            </p>
+          )}
         </Section>
-        </section>
+        <Separator className='mt-2'/>
+    
+        
+        <div className='text-start space-y-1.5 mt-1'>
+          <h2 className="text-xl font-bold">Reading List</h2>
+          <p className="ml-0.5 text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+            my curated reading list of things i&apos;ve read and loved
+          </p>
+        </div>
+
+        <Section className="space-y-2 mt-1.5">
+          <ReadingList 
+            items={readingList} 
+            limit={4}
+            showViewAll={true}
+          />
+        </Section>
+      </div>
+      <div className="mt-auto pt-6 flex justify-center gap-x-2 font-mono text-sm text-muted-foreground/60 print:hidden">
+        {HOME.contact.email ? (
+          <Button
+            className="size-4"
+            variant="outline"
+            size="icon"
+            asChild
+          >
+            <a href={`mailto:${HOME.contact.email}`}>
+              <MailIcon className="size-4" />
+            </a>
+          </Button>
+        ) : null}
+        {HOME.contact.social.map((social) => (
+          <Button
+            key={social.name}
+            className="size-4"
+            variant="outline"
+            size="icon"
+            asChild
+          >
+            <a href={social.url}>
+              <social.icon className="size-4" />
+            </a>
+          </Button>
+        ))}
+      </div>
     </main>
   );
 }

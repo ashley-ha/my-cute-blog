@@ -8,7 +8,7 @@ export const posts: Post[] = [
     description: 'im ashley, welcome :)',
     date: '2024-10-28',
     draft: false,
-    content: '...',
+    content: '... in progress',
     tags: ['introduction', 'personal'],
     readingTime: '3 min read'
   },
@@ -18,7 +18,7 @@ export const posts: Post[] = [
     description: 'thiry life learnings approaching my thirieth rotation around the sun',
     date: '2024-10-29',
     draft: false,
-    content: '...',
+    content: '... in progress',
     tags: ['personal'],
     readingTime: '3 min read'
   },

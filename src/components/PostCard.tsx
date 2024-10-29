@@ -11,7 +11,7 @@ export function PostCard({ post }: PostCardProps) {
   return (
     <div className="group space-y-1.5">
       <Link href={`/posts/${post.slug}`}>
-        <div className="space-y-1.5">
+        <div>
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold">
               {post.title}

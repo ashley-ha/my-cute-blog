@@ -13,8 +13,6 @@ import { getReadingList } from '@/data/posts/readings';
 import { ReadingList } from '@/components/ReadingList';
 
 
-
-
 export const metadata: Metadata = {
   title: `${HOME.name} | ${HOME.home}`,
   description: HOME.summary,
@@ -48,8 +46,8 @@ export default function Page() {
             <Image
               alt={HOME.name}
               src={HOME.Logo}
-              height={100}
-              width={100}
+              height={200}
+              width={200}
             />
           </Link>
         </div>
@@ -59,8 +57,8 @@ export default function Page() {
             {HOME.summary}
           </p>
         </div>
-        <Separator className='mt-2'/>
-        <Section className="space-y-4">
+        <Separator className='my-3'/>
+        <Section>
           {posts.map(post => (
             <PostCard key={post.slug} post={post} />
           ))}
@@ -70,10 +68,10 @@ export default function Page() {
             </p>
           )}
         </Section>
-        <Separator className='mt-2'/>
+        <Separator className='my-3'/>
     
         
-        <div className='text-start space-y-1.5 mt-1'>
+        <div className='text-start mt-1'>
           <h2 className="text-xl font-bold">Reading List</h2>
           <p className="ml-0.5 text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
             my curated reading list of things i&apos;ve read and loved

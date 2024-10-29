@@ -7,4 +7,4 @@ export type Post = {
     content: string;
     tags?: string[];
     readingTime?: string;
-  }
+  };

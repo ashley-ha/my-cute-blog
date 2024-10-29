@@ -1,4 +1,4 @@
-  import Logo from '@/images/logo5.png'
+  import Logo from '@/images/logo.png'
   import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
   
   export const HOME = {

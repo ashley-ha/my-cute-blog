@@ -9,7 +9,7 @@
     home:
       "by ashley eastman ha",
     summary:
-      "writings, readings, & writings about readings, etcetera",
+      "my writings, 1am thoughts & things i care about",
     Logo: Logo.src,
     personalWebsiteUrl: "https://ashleyha.com",
     contact: {

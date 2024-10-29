@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 export default function Page() {
   const posts = getAllPosts();
   const readingList = getReadingList();
+  const postLimit = 3;
 
   return (
     <main className="container relative mx-auto min-h-screen flex flex-col scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
@@ -58,15 +59,27 @@ export default function Page() {
         </div>
         <Separator className='my-3'/>
         <Section>
-          {posts.map(post => (
-            <PostCard key={post.slug} post={post} />
-          ))}
-          {posts.length === 0 && (
-            <p className="text-center text-muted-foreground">
-              No posts yet. Check back soon!
-            </p>
-          )}
-        </Section>
+        {posts.slice(0, postLimit).map(post => (
+          <PostCard key={post.slug} post={post} />
+        ))}
+        {posts.length === 0 && (
+          <p className="text-center text-muted-foreground">
+            No posts yet. Check back soon!
+          </p>
+        )}
+        {posts.length > postLimit && (
+          <div className="flex justify-center pt-4">
+            <Link href="/writings">
+              <Button 
+                variant="outline" 
+                className="font-mono text-xs text-muted-foreground/60"
+              >
+                all writings →
+              </Button>
+            </Link>
+          </div>
+        )}
+      </Section>
         <Separator className='my-3'/>
     
         

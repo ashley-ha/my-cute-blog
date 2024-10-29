@@ -3,13 +3,12 @@ import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { HOME } from "@/data/home";
-import { posts } from "@/data/posts/posts";
 import { PostCard } from '@/components/PostCard';
 import { getAllPosts } from '@/data/posts/posts';
 import Image from 'next/image'
 import Link from 'next/link'
 import { Separator } from "@/components/ui/separator";
-import { getReadingList } from '@/data/posts/readings';
+import { getReadingList } from '@/data/readings/readings';
 import { ReadingList } from '@/components/ReadingList';
 
 

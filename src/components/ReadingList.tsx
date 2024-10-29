@@ -54,7 +54,7 @@ interface ReadingListProps {
               align="start"
             >
               <p className="text-pretty text-muted-foreground/80">
-              &quot;{item.thoughts}&quot;
+              {item.thoughts}
               </p>
             </HoverCardContent>
           )}
@@ -106,7 +106,7 @@ interface ReadingListProps {
                 variant="outline" 
                 className="font-mono text-xs text-muted-foreground/60"
               >
-                view all readings →
+                all readings →
               </Button>
             </Link>
           </div>

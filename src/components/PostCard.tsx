@@ -13,7 +13,7 @@ export function PostCard({ post }: PostCardProps) {
       <Link href={`/posts/${post.slug}`}>
         <div>
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-bold">
+            <h2 className="text-md font-bold">
               {post.title}
             </h2>
             <time className="font-mono text-xs text-muted-foreground">

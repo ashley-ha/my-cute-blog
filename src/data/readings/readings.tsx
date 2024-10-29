@@ -34,13 +34,14 @@ export const readingList: ReadingItem[] = [
     thoughts: "even though this is from 2014, i still found this relavent and fitting for todays world. esp with everyone saying things like 'ai will take all the jobs and startups will die'. bunch of nonsense!"
   },
   {
-    title: "You Are Late",
-    url: "https://kk.org/thetechnium/you-are-not-late/",
-    author: "The Technium",
+    title: "Situational Awareness",
+    url: "https://situational-awareness.ai/",
+    author: "Leopold Aschenbrenner",
     type: "article",
-    note: "I promise you are not late; just ✨ go build things ✨",
-    thoughts: "even though this is from 2014, i still found this relavent and fitting for todays world. esp with everyone saying things like 'ai will take all the jobs and startups will die'. bunch of nonsense!"
-  },
+    note: "Leopold predicts a rapid progression to superintelligent AI by 2027, & warns about technological & geopolitical implications",
+    thoughts: "he presents a v compelling but concerning timeline for AGI development, backed by technical analysis of scaling laws and compute trends. he predicts there will be an 'intelligence explosion' where AGI systems could rapidly self-improve and achieve superintelligence within months of initial AGI. he also talks about the urgent national security implications & calls for massive government intervention (even comparing the AGI race to the Manhattan Project). overall, pretty important questions about AI safety, international cooperation, and the need for proper governance structures as we approach AGI."
+  }
+    
   // more items placeholder.. 
 ];
 

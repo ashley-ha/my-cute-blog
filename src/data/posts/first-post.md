@@ -6,11 +6,11 @@ draft: false
 tags: ["introduction", "personal"]
 ---
 
-I'm ashley & welcome to my cute blog
+I'm ashley & welcome to my blog
 
-I've been wanting to make a personal website for a while now. 
+I've been wanting to make a personal website for a while now
 
-Mostly to share my current reading lists, some original writings about life learnings, and just thoughts that come to mind
+Mostly to share my current reading lists, some original writings about life learnings, and just thoughts that come to my mind at 1am
 
 I hope you enjoy taking a small peek into my life & that you learn at least one new thing from each blog post
 

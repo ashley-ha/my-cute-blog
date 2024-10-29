@@ -105,7 +105,7 @@ export class Me {
   summary: string;
 
   @Field(() => String)
-  avatarUrl: string;
+  Logo: string;
 
   @Field(() => String)
   personalWebsiteUrl: string;

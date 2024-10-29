@@ -1,9 +1,9 @@
 ---
 title: "Thirty Thoughts"
 description: "thirty life learnings as i approach my thirtieth rotation around the sun"
-date: "2024-10-29"
+date: "2024-10-30"
 draft: false
-tags: ["personal"]
+tags: ["personal", "in progress"]
 ---
 
-.. in progress; coming october 30th
+.. in progress; out october 30th

@@ -101,7 +101,7 @@ export default function Page() {
       <div className="mt-auto pt-6 flex justify-center gap-x-2 font-mono text-sm text-muted-foreground/60 print:hidden">
         {HOME.contact.email ? (
           <Button
-            className="size-4"
+            className="size-4 border-0"
             variant="outline"
             size="icon"
             asChild
@@ -114,13 +114,13 @@ export default function Page() {
         {HOME.contact.social.map((social) => (
           <Button
             key={social.name}
-            className="size-4"
+            className="size-4 border-0"
             variant="outline"
             size="icon"
             asChild
           >
             <a href={social.url}>
-              <social.icon className="size-4" />
+              <social.icon className="size-4 border-0" />
             </a>
           </Button>
         ))}

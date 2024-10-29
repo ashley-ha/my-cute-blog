@@ -54,7 +54,7 @@ interface ReadingListProps {
               align="start"
             >
               <p className="text-pretty text-muted-foreground/80">
-                "{item.thoughts}"
+              &quot;{item.thoughts}&quot;
               </p>
             </HoverCardContent>
           )}

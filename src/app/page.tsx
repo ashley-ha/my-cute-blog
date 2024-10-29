@@ -74,7 +74,7 @@ export default function Page() {
         <div className='text-start mt-1'>
           <h2 className="text-xl font-bold">Reading List</h2>
           <p className="ml-0.5 text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
-            my curated reading list of things i&apos;ve read and loved
+            my curated reading list of things i&apos;ve read and loved (hover for notes)
           </p>
         </div>
 

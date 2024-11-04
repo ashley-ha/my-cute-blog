@@ -41,4 +41,4 @@ Since I've learned a few things in my brief time on earth & I wanted to take thi
 30. You can learn something from everyone you meet. The janitor at your workplace, the teacher from your elementary school days, the person behind the grocery counter - they each possess knowledge you don't have and excel at things you haven't mastered. Take time to notice their strengths, value their perspectives, and absorb what they can teach you. Keep an attitude of endless curiosity in all aspects of life.
 
 ♡, Ashley
-![with love, ashley]("/Users/ashley/dev/ashleysblog/my-cute-blog/src/images/me.JPG" "with love, ashley")
+![with love, ashley]("/src/images/me.JPG" "with love, ashley")

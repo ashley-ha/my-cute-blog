@@ -8,19 +8,8 @@ tags: ["personal"]
 
 Hello! I'm approaching my thirtieth year of life this coming December & lately, i've been feeling increasingly nostalgic. 
 
-Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all.
----
-title: "Thirty Thoughts"
-description: "thirty life learnings as i approach my thirtieth rotation around the sun"
-date: "2024-11-04"
-draft: false
-tags: ["personal"]
----
-
-Hello! I'm approaching my thirtieth year of life this coming December & lately, i've been feeling increasingly nostalgic. 
-
 Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all. 
-1.We don't see things as they are; we see them as we are. Anais Nin said this & as I've gotten older I realized how beautifully true it's been for me. A positive mindset will create a positively beautiful outlook on life.
+1. We don't see things as they are; we see them as we are. Anais Nin said this & as I've gotten older I realized how beautifully true it's been for me. A positive mindset will create a positively beautiful outlook on life.
 2. Friendships don't always last forever. and that's okay. There's nothing wrong with you. People naturally grow apart. "If they wanted to keep in touch, they would".
 3. Don't listen for a second to your 9th grade biology professor that "Science just isn't your thing." You're going to eventually quit your job as a flight attendant at 26 & graduate from UC Berkeley with a degree in Data Science three years later.
 4. You like to work hard but you tend to burn out harder. You need to try hard to find balance in life when working hard just for the sake of it, and playing hard because your anxiety is overwhelming you and you want to hide from the world.

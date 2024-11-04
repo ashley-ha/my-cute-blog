@@ -9,7 +9,18 @@ tags: ["personal"]
 Hello! I'm approaching my thirtieth year of life this coming December & lately, i've been feeling increasingly nostalgic. 
 
 Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all.
-1. We don't see things as they are; we see them as we are. Anais Nin said this & as I've gotten older I realized how beautifully true it's been for me. A positive mindset will create a positively beautiful outlook on life.
+---
+title: "Thirty Thoughts"
+description: "thirty life learnings as i approach my thirtieth rotation around the sun"
+date: "2024-11-04"
+draft: false
+tags: ["personal"]
+---
+
+Hello! I'm approaching my thirtieth year of life this coming December & lately, i've been feeling increasingly nostalgic. 
+
+Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all. 
+1.We don't see things as they are; we see them as we are. Anais Nin said this & as I've gotten older I realized how beautifully true it's been for me. A positive mindset will create a positively beautiful outlook on life.
 2. Friendships don't always last forever. and that's okay. There's nothing wrong with you. People naturally grow apart. "If they wanted to keep in touch, they would".
 3. Don't listen for a second to your 9th grade biology professor that "Science just isn't your thing." You're going to eventually quit your job as a flight attendant at 26 & graduate from UC Berkeley with a degree in Data Science three years later.
 4. You like to work hard but you tend to burn out harder. You need to try hard to find balance in life when working hard just for the sake of it, and playing hard because your anxiety is overwhelming you and you want to hide from the world.
@@ -18,7 +29,7 @@ Since I've learned a few things in my brief time on earth & I wanted to take thi
 7. Sleep more. Scroll less.
 8. You hate conflict more than anything, but don't let that be an excuse to let something go. Someone got your order wrong? Don't just say "Thank you" and let it go. Be assertive. This will help you nurture confidence & love yourself more.
 9. It's okay not to record or capture every moment in life. Put the camera down, and be in the moment with yourself and those around you. I promise you won't be rewatching the Fourth of July fireworks show from 2012 anytime soon.
-10. Sometimes you feel like you're being shunted down a waterslide, an opaque tube that goes on endlessly & you don’t know where you'll be spat out. This is a fleeting moment. Nothing ever lasts forever, except family.
+10. Sometimes you feel like you're being shunted down a waterslide, an opaque tube that goes on endlessly & you don't know where you'll be spat out. This is a fleeting moment. Nothing ever lasts forever, except family.
 11. Family is everything to you. Family is forever.
 12. You are a chameleon when it comes to morphing into a version of yourself you think someone will like. It's okay to just be yourself instead. People will actually like that version of you more. And you will too.
 13. Ask! for! things! There's a near-zero-percent chance of getting something you never ask for. Ask for the advice. Ask for the correct order. Ask for the promotion.
@@ -34,7 +45,7 @@ Since I've learned a few things in my brief time on earth & I wanted to take thi
 23. Don't sleep in math class. Please...I'm begging you!!!!
 24. Don't ever be mean to anybody. And always remember that everyone you meet is going through their own struggle.
 25. You have so many flaws and will make tons of mistakes. Don't let that be an excuse to binge-watch Netflix all weekend walling in self-pity. It's actually a bit full of yourself to think you are more "inherently flawed" than others. Everyone's flawed. That's kind of what makes us beautiful sometimes.
-26. Heartache doesn’t last forever. It's all consuming when you're in the midst of it. But, it always passes and you're always okay on the other side.
+26. Heartache doesn't last forever. It's all consuming when you're in the midst of it. But, it always passes and you're always okay on the other side.
 27. You're an exceptional listener. People sometimes tell you that you should've been a therapist. But don't let this be an excuse never to voice your opinions or thoughts. If someone's talking over you, point it out. You deserve to be heard, too.
 28. A good cry will **always** make you feel better. Whether it's a good cry, or a bad cry. Crying is healthy and you'll do it often.
 29. No one owes you anything. Having that mindset just makes you seem entitled and won't get you anywhere.

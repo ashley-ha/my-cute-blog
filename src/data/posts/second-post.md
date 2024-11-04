@@ -31,14 +31,15 @@ Since I've learned a few things in my brief time on earth & I wanted to take thi
 20. Your empathy is a superpower - not a weakness. So is your kindness.<br>
 21. Don't dye your hair so much! Embrace your natural color for a few years - your older self will thank you <3<br>
 22. Keep people close who genuinely believe in you. On those days when you're doubting yourself, you can remember that these people in your life - the ones who know you best - believe in you completely. There's so much strength in knowing that your inner circle has faith in you, even when you don't.<br>
-23. Don't sleep in math class. Please...I'm begging you!!!!<br>
-24. Don't ever be mean to anybody. And always remember that everyone you meet is going through their own struggle<br>
+23. Don't sleep on math. It will actually became extremeley important to you in the future.<br>
+24. Don't ever be mean to anybody. & always remember that everyone you meet is going through their own struggle<br>
 25. You have so many flaws and will make tons of mistakes. Don't let that be an excuse to binge-watch Netflix all weekend walling in self-pity. It's actually a bit full of yourself to think you are more "inherently flawed" than others. Everyone's flawed. That's kind of what makes us beautiful sometimes.<br>
 26. Heartache doesn't last forever. It's all consuming when you're in the midst of it. But, it always passes and you're always okay on the other side.<br>
 27. You're an exceptional listener. People sometimes tell you that you should've been a therapist. But don't let this be an excuse never to voice your opinions or thoughts. If someone's talking over you, point it out. You deserve to be heard, too.<br>
 28. A good cry will **always** make you feel better. Whether it's a good cry, or a bad cry. Crying is healthy and you'll do it often.<br>
 29. No one owes you anything. Having that mindset just makes you seem entitled and won't get you anywhere.<br>
-30. You can learn something from everyone you meet. The janitor at your workplace, the teacher from your elementary school days, the person behind the grocery counter - they each possess knowledge you don't have and excel at things you haven't mastered. Take time to notice their strengths, value their perspectives, and absorb what they can teach you. Keep an attitude of endless curiosity in all aspects of life.
-
-♡, Ashley
-<!-- ![with love, ashley](../../images/me.JPG "with love, ashley") -->
+30. You can learn something from everyone you meet. Each person you encounter, possess knowledge you don't have and excel at things you haven't mastered. Take time to notice their strengths, value their perspectives, and absorb what they can teach you. Keep an attitude of endless curiosity in all aspects of life.<br>
+<div style="display: flex; align-items: center; gap: 150px;">
+<img src="/logo5.png" alt="with love, ashley" title="with love, ashley" width="150" height="auto">
+  <p>♡, Ashley</p>
+</div>

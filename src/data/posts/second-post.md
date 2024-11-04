@@ -10,19 +10,10 @@ Hello! I'm approaching my thirtieth year of life this coming December & lately, 
 
 Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all.
 
-<!-- Blank line below for spacing -->
 1. We don't see things as they are; we see them as we are. Anais Nin said this & as I've gotten older I realized how beautifully true it's been for me. A positive mindset will create a positively beautiful outlook on life.
-
-<!-- Blank line below for spacing -->
 2. Friendships don't always last forever. and that's okay. There's nothing wrong with you. People naturally grow apart. "If they wanted to keep in touch, they would".
-
-<!-- Blank line below for spacing -->
 3. Don't listen for a second to your 9th grade biology professor that "Science just isn't your thing." You're going to eventually quit your job as a flight attendant at 26 & graduate from UC Berkeley with a degree in Data Science three years later.
-
-<!-- Blank line below for spacing -->
 4. You like to work hard but you tend to burn out harder. You need to try hard to find balance in life when working hard just for the sake of it, and playing hard because your anxiety is overwhelming you and you want to hide from the world.
-
-<!-- Blank line below for spacing -->
 5. Humans are amazing. Just because someone else **seems** smarter, kinder, better looking or more creative, doesn't mean that you *aren't*. Learn to appreciate people without comparing them to yourself. Draw confidence in who you are & don't worry about what you aren't.
 6. Public speaking will probably always be scary to you. But always remember that your audience is likely wishing the best for you, instead of the worst. They also probably don't care as much as you think they do.
 7. Sleep more. Scroll less.

@@ -8,7 +8,8 @@ tags: ["personal"]
 
 Hello! I'm approaching my thirtieth year of life this coming December & lately, i've been feeling increasingly nostalgic. 
 
-Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all. 
+Since I've learned a few things in my brief time on earth & I wanted to take this opportunity to reflect // share them with you all.
+   
 1. We don't see things as they are; we see them as we are. Anais Nin said this & as I've gotten older I realized how beautifully true it's been for me. A positive mindset will create a positively beautiful outlook on life.
    
 2. Friendships don't always last forever. and that's okay. There's nothing wrong with you. People naturally grow apart. "If they wanted to keep in touch, they would".
@@ -70,4 +71,4 @@ Since I've learned a few things in my brief time on earth & I wanted to take thi
 30. You can learn something from everyone you meet. The janitor at your workplace, the teacher from your elementary school days, the person behind the grocery counter - they each possess knowledge you don't have and excel at things you haven't mastered. Take time to notice their strengths, value their perspectives, and absorb what they can teach you. Keep an attitude of endless curiosity in all aspects of life.
 
 ♡, Ashley
-![with love, ashley](../../images/me.JPG "with love, ashley")
+![with love, ashley](/my-cute-blog/src/images/me.JPG "with love, ashley")

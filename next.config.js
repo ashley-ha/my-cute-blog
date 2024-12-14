@@ -1,18 +1,25 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = {
-    async headers() {
-      return [
-        {
-          source: '/favicon.ico',
-          headers: [
-            {
-              key: 'Cache-Control',
-              value: 'no-cache, no-store, must-revalidate'
-            }
-          ]
-        }
-      ]
-    }
+const nextConfig = {
+  images: {
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    formats: ['image/webp'],
+    minimumCacheTTL: 60,
+    domains: ['localhost'], 
+  },
+  async headers() {
+    return [
+      {
+        source: '/favicon.ico',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-cache, no-store, must-revalidate'
+          }
+        ]
+      },
+    ]
   }
+}
+
+module.exports = nextConfig;

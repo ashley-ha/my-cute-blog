@@ -1,22 +1,31 @@
-import MarkdownIt from 'markdown-it';
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import { Post } from '@/app/types/posts';
-
-const md = new MarkdownIt({
-  html: true,
-  breaks: true,
-  linkify: true,
-});
+import CustomImage from './CustomImages';
 
 interface PostContentProps {
   post: Post;
 }
 
 export function PostContent({ post }: PostContentProps) {
-  const htmlContent = md.render(post.content);
-  
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+      <ReactMarkdown
+  components={{
+    img: (props) => (            
+      <CustomImage
+        src={props.src || ''}
+        alt={props.alt || ''}
+        width={props.width || 500}  
+        height={props.height || 300} 
+        className="rounded-lg"
+        priority={true}
+      />
+    ),
+  }}
+>
+  {post.content}
+</ReactMarkdown>
     </article>
   );
 }

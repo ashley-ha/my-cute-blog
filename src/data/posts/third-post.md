@@ -9,7 +9,9 @@ tags: ["personal",  "korea life"]
     <div style="text-align: left; margin-right: 40px ">
 안녕하세요, 애슐리예요~
 </div>
-<img src="/blossoms.png" alt="blossoms" title="blossoms~" width="350" height="auto">
+
+<img src="/blossoms.png" alt="blossoms" width="300" height="250" />
+
 </div>
 
 So I've lived in Korea on and off for around a year and a half now.
